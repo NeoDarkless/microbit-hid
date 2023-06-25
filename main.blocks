@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="g3mp1cu=/i7stWRthJWm" x="44" y="12"><statement name="HANDLER"><block type="device_show_leds" id="qD}*dd!/)v(bF}l[s2r0"><field name="LEDS">`
+        # . # # . 
+        . # . . # 
+        . . # # . 
+        . # # . # 
+        # . # # .
+        `</field><next><block type="keyboard service" id="p)d9B`08xFt=H]U7:_tt"></block></next></block></statement></block><block type="device_forever" id="T!=/17)oXuSjv(HCZ5$!" x="312" y="16"></block><block type="device_button_event" id="T9nK=k;BCz4r8?$C;:ga" x="476" y="223"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="send string" id="bI#^dB0NV1xhxXvT;AZ*"><value name="keys"><shadow type="text"><field name="TEXT"></field></shadow><block type="modifiers" id="S-cQT-Q%4iD~t5G*:0Gl"><field name="key">keyboard._Modifier.control</field></block></value></block></statement></block><block type="bluetooth_on_connected" id="0E9,ty,GyR^EIjCf62,(" x="40" y="404"><statement name="HANDLER"><block type="basic_show_icon" id="nU+]`*V1MkfE:oyW}0kX"><field name="i">IconNames.Yes</field><next><block type="device_pause" id="I8$H5}-u+YkX|G.$^eC0"><value name="pause"><shadow type="timePicker" id="cajo@4pT|BD:Hwm`w8A1"><field name="ms">100</field></shadow></value><next><block type="device_print_message" id="(^s!!5V^w?R==2Igb$5V"><value name="text"><shadow type="text" id="78!bn^DGw2y^n=)xT*iB"><field name="TEXT">BLE connected</field></shadow></value></block></next></block></next></block></statement></block><block type="text" id="h1[Bwv.GXjdzSu]U/~Ax" disabled="true" x="848" y="367"><field name="TEXT"></field></block><block type="bluetooth_on_disconnected" id="ijp`v,m[R:XP4=P%Rz1P" x="428" y="544"><statement name="HANDLER"><block type="basic_show_icon" id="E~xm`[MY7ZPWjRBrUU4["><field name="i">IconNames.No</field><next><block type="device_pause" id="]Q7gVFy-3AYf:!-XKWr}"><value name="pause"><shadow type="timePicker" id="rZMx`H!HN;)T4neKBDTH"><field name="ms">100</field></shadow></value><next><block type="device_print_message" id="a%`IJsSV23m@s)A#$n2."><value name="text"><shadow type="text" id="Pbs+]Z|1w-d`0%z;}[zD"><field name="TEXT">BLE disconnected</field></shadow></value><next><block type="device_show_leds" id="tMaycU2ymVsYSeZoC=y7"><field name="LEDS">`
+        # . # # . 
+        . # . . # 
+        . . # # . 
+        . # # . # 
+        # . # # .
+        `</field></block></next></block></next></block></next></block></statement></block></xml>
